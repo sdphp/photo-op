@@ -1,0 +1,8 @@
+photo_op_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: PhotoOpBundle:Default:index }
+
+rest_api_game:
+    type: rest
+    prefix:   /api
+    resource: SDPHP\PhotoOpBundle\Controller\PhotoController

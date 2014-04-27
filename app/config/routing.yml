@@ -1,0 +1,3 @@
+photo_op:
+    resource: "@PhotoOpBundle/Resources/config/routing.yml"
+    prefix:   /
