@@ -2,6 +2,10 @@ photo_op_homepage:
     pattern:  /hello/{name}
     defaults: { _controller: PhotoOpBundle:Default:index }
 
+photo_op_test:
+    pattern:  /test
+    defaults: { _controller: PhotoOpBundle:Default:test }
+
 rest_api_game:
     type: rest
     prefix:   /api
