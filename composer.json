@@ -30,7 +30,8 @@
         "hwi/oauth-bundle": "0.3.*@dev",
         "jms/serializer-bundle": "~0.12",
         "guzzlehttp/guzzle": "4.1.*@dev",
-        "guzzlehttp/guzzle-services": "~0.1"
+        "guzzlehttp/guzzle-services": "~0.1",
+        "guzzlehttp/oauth-subscriber": "0.1.x"
 
     },
     "scripts": {
